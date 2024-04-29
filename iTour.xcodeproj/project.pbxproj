@@ -12,6 +12,8 @@
 		C5AB5A2D2BDF329F0029D5CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5AB5A2C2BDF329F0029D5CB /* Assets.xcassets */; };
 		C5AB5A302BDF329F0029D5CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5AB5A2F2BDF329F0029D5CB /* Preview Assets.xcassets */; };
 		C5AB5A372BDF32DE0029D5CB /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AB5A362BDF32DE0029D5CB /* Destination.swift */; };
+		C5AB5A392BDF383C0029D5CB /* EditDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AB5A382BDF383C0029D5CB /* EditDestinationView.swift */; };
+		C5AB5A3B2BDF406F0029D5CB /* DestinationListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AB5A3A2BDF406F0029D5CB /* DestinationListingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		C5AB5A2C2BDF329F0029D5CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5AB5A2F2BDF329F0029D5CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C5AB5A362BDF32DE0029D5CB /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		C5AB5A382BDF383C0029D5CB /* EditDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDestinationView.swift; sourceTree = "<group>"; };
+		C5AB5A3A2BDF406F0029D5CB /* DestinationListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationListingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +59,11 @@
 			children = (
 				C5AB5A282BDF329E0029D5CB /* iTourApp.swift */,
 				C5AB5A2A2BDF329E0029D5CB /* ContentView.swift */,
+				C5AB5A382BDF383C0029D5CB /* EditDestinationView.swift */,
 				C5AB5A2C2BDF329F0029D5CB /* Assets.xcassets */,
 				C5AB5A362BDF32DE0029D5CB /* Destination.swift */,
 				C5AB5A2E2BDF329F0029D5CB /* Preview Content */,
+				C5AB5A3A2BDF406F0029D5CB /* DestinationListingView.swift */,
 			);
 			path = iTour;
 			sourceTree = "<group>";
@@ -143,6 +149,8 @@
 				C5AB5A2B2BDF329E0029D5CB /* ContentView.swift in Sources */,
 				C5AB5A292BDF329E0029D5CB /* iTourApp.swift in Sources */,
 				C5AB5A372BDF32DE0029D5CB /* Destination.swift in Sources */,
+				C5AB5A392BDF383C0029D5CB /* EditDestinationView.swift in Sources */,
+				C5AB5A3B2BDF406F0029D5CB /* DestinationListingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
